@@ -1,0 +1,48 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.huawei.ohos.app'
+
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('D:\\harmony_key\\madixin.p12')
+            storePassword '0000001A97F3F106F106173BE5E3F869AC83000C1F46C150C253A87F679EDC93BCA09ECD9ECF5876CCC0'
+            keyAlias = 'madixin'
+            keyPassword '0000001A8F9571390DBDF6C79319DFCE5FA51D03922977259DB3E98B4F8D340FEE1CB736475CD865F2C2'
+            signAlg = 'SHA256withECDSA'
+            profile file('D:\\harmony_key\\aaaaDebug.p7b')
+            certpath file('D:\\harmony_key\\我的调试证书.cer')
+        }
+    }
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 4
+    }
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'http://repo.ark.tools.huawei.com/artifactory/maven-public/'
+        }
+        maven {
+            url 'http://mirrors.tools.huawei.com/maven/'
+        }
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.huawei.ohos:hap:2.4.2.5'
+        classpath 'com.huawei.ohos:decctest:1.0.0.6'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'http://repo.ark.tools.huawei.com/artifactory/maven-public/'
+        }
+        maven {
+            url 'http://mirrors.tools.huawei.com/maven/'
+        }
+        jcenter()
+    }
+}
