@@ -33,7 +33,7 @@
 点击第一个Button，将使用**EventHandler**睡眠五秒后，更新Text。
 点击第二个Button，将使用**TaskDispatcher**睡眠五秒后，更新Text。
 
-![image-20210425104400645](../examples/Harmonyos_thread/images/image-20210425104400645.png)
+![image-20210425104400645](../../examples/Harmonyos_thread/images/image-20210425104400645.png)
 
 # 3.任务1:创建异步任务工程
 

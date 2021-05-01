@@ -12,19 +12,20 @@ HarmonyOS应用开发的各种示例，项目及开发教程汇总，帮助初�
 - [HDC2020介绍](https://www.bilibili.com/video/BV1qp4y1e7ua?p=2)
 
 ### 二、示例代码
-**请注意：**当前我的代码是在**SDK5**的模拟器和设备上运行，以及使用**DevEco Studio 2.1 Beta3**上验证通过，后续新版本可能会涉及到改动，尤其是config.json文件里SDK的版本。
+**请注意：**当前我的代码是在**SDK5**的模拟器和设备上运行，以及使用**DevEco Studio 2.1 Beta3**上验证通过，后续新版本可能会涉及到改动，尤其是需要更新config.json文件里SDK的版本。
 
-- [harmonyos-thread](https://codehub-g.huawei.com/HarmonyOS-examples/HarmonyOS-examples/files?ref=master&filePath=examples%2FHarmonyos_thread%2FREADME.md)：异步任务EventHandler/TaskDispatcher 示例
+- [harmonyos-thread](https://github.com/Madixin/HarmonyOS-examples/tree/main/examples/Harmonyos_thread)：异步任务EventHandler/TaskDispatcher 示例
 - harmonyos-data Ability：操作本地数据库 示例
 - harmonyos-service Ability：后台运行任务 示例
 
 ### 三、应用开发
 #### 『 基础 - 入门篇 』
-- [创建和运行Hello World](https://www.bysocket.com/technique/2135.html)
+- [创建和运行Hello World](https://github.com/Madixin/HarmonyOS-examples/blob/main/tutorials/HelloWorld/HelloWorld.md)
 - 使用真实设备运行
 - 在应用中输出日志
 - 应用目录结构
 - 基础概念
+- 经典基础项目模板
 - 常见开发问题FAQ
 
 #### 『 基础 -界面开发篇 』
@@ -33,9 +34,9 @@ HarmonyOS应用开发的各种示例，项目及开发教程汇总，帮助初�
 - 单元测试/UI测试
 
 #### 『 基础 - 后台篇 』
-- service ability
+- [Eventhandler,Taskdispacher异步任务](https://github.com/Madixin/HarmonyOS-examples/blob/main/tutorials/AsyncTask/AsyncTask.md)
 
-- Eventhandler,Taskdispacher异步任务
+- service ability
 
 - 数据库存储
 

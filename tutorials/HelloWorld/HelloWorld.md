@@ -25,6 +25,7 @@ HUAWEI DevEco Studio（以下简称DevEco Studio）是基于IntelliJ IDEA Commun
 ![image-20210426144801228](HelloWorld.assets/image-20210426144801228.png)
 
 4. 如果是内网环境，则需要配置代理，否则可忽略此步骤。
+
 	4.1 设置**DevEco Studio**代理，用于下载SDK。
 	![image-20210426145522733](HelloWorld.assets/image-20210426145522733.png)
 	4.2 设置**npm代理**，用于JS语言开发HarmonyOS应用的依赖：进入DevEco Studio安装目录下的tools\nodejs目录，运行命令设置代理。注意将特殊字符替换为ASCII码。
@@ -54,6 +55,7 @@ npm info express
 4. 登录华为账号，并授权**DevEco Studio**。
 
 ![image-20210426151412778](HelloWorld.assets/image-20210426151412778.png)
+
 5.选择**P40**设备，启动模拟器。
 
 ![image-20210426151803704](HelloWorld.assets/image-20210426151803704.png)
@@ -64,8 +66,8 @@ npm info express
 
 
 
-# 4. 常见错误
-- 使用**Empty Feature Ability(JS)**创建项目后，报错
+# 4. 常见问题
+- 问题：使用**Empty Feature Ability(JS)**创建项目后，报错
 ```
 A problem occurred configuring project ':entry'.
 Unable to download the HarmonyOS SDK. Install js:2.1.0.25 fail!
@@ -73,15 +75,15 @@ Unable to download the HarmonyOS SDK. Install js:2.1.0.25 fail!
   问题原因：npm依赖无法下载，大概率由于npm代理原因或网络导致
   解决方案：参考面提到的方法，配置npm代理
 
-- **Tools-->HVD Manager**启动模拟器后IE白屏，导致无法登陆和打开模拟器。
+- 问题：**Tools-->HVD Manager**启动模拟器后IE白屏，导致无法登陆和打开模拟器。
   问题原因：登陆界面浏览器兼容问题
   解决方案：复制链接，使用Chrome打开登陆。建议把机器的默认浏览器设置为Chrome。
 
-- 启动应用时，**Run**窗口显示**Failure[INSTALL_PARSE_FAILED_USESDK_ERROR]**错误
+- 问题：启动应用时，**Run**窗口显示Failure[INSTALL_PARSE_FAILED_USESDK_ERROR]错误
   问题原因：当前应用config.json配置的SDK版本，与模拟器版本不匹配。
   解决方案：修改config.json，去掉releaseType(用来标识运行所需API版本的)。以及确认“apiVersion.target”是否与模拟器API版本一致。
 
-- 设备的状态为**invalid**，无法启动模拟器
+- 问题：设备的状态为**invalid**，无法启动模拟器
   问题原因：后台模拟器状态问题
   解决方案：多点下**Refresh**按钮，将设备重置为**Ready**状态
 
