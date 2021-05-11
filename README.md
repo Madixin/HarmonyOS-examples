@@ -22,6 +22,7 @@ HarmonyOS应用开发的各种示例，项目及开发教程汇总，帮助初�
 #### 『 基础 - 入门篇 』
 - [创建和运行Hello World](https://github.com/Madixin/HarmonyOS-examples/blob/main/tutorials/HelloWorld/HelloWorld.md)
 - 使用真实设备运行
+- [5个工程，迅速上手HamonOS应用开发](https://github.com/Madixin/HarmonyOS-examples/blob/main/tutorials/ProjectTemplate/ProjectTemplate.md)
 - 在应用中输出日志
 - 应用目录结构
 - 基础概念
