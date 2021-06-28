@@ -52,6 +52,7 @@ HarmonyOS应用开发的各种示例，项目及开发教程汇总，帮助初�
 #### 『 高级 – 原理，性能篇 』
 
 #### 『 高级 – 项目实战篇 』
+- [CodeLab-分布式新闻客户端](https://github.com/Madixin/HarmonyOS-examples/blob/main/tutorials/MyNews/Readme.md)
 
 ### 四、其他资源
 - [HarmonyOS官网](https://developer.harmonyos.com/cn/home)
